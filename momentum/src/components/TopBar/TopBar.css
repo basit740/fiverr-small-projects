@@ -1,0 +1,36 @@
+.topbar {
+	padding: 10px 15px;
+	background-color: #4b245b;
+}
+.topbar__nav {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.fake-brand {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	margin-right: auto;
+	opacity: 0;
+}
+.topbar__nav-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 35px;
+}
+.topbar__item {
+}
+.topbar__link:link {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.topbar__link:link:hover {
+	color: #999;
+}

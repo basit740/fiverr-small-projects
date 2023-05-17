@@ -1,0 +1,14 @@
+.checkout {
+	margin-top: 450px;
+	margin-bottom: 300px;
+}
+
+.checkout__title {
+	background-color: #3f1e4c;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}

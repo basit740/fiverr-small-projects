@@ -1,0 +1,35 @@
+.checkout-form {
+}
+
+.checkout-form__controls {
+	margin-top: 25px;
+}
+
+.form-control {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.form-control input {
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: 1px solid #be9ecc;
+	margin-bottom: 16px;
+}
+
+.form-control input:focus {
+	outline: 1px solid #9763ad;
+}
+
+.checkout-form__submit {
+	border: 1px solid #9763ad;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.checkout-form__submit:hover {
+	background-color: #9763ad;
+	color: #fff;
+}

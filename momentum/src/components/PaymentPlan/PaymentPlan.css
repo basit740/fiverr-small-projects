@@ -1,0 +1,64 @@
+.payment {
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	cursor: pointer;
+
+	border-radius: 10px;
+	border: 2px solid #25122e;
+	background-color: #d8c5e0;
+	color: #0c060f;
+	box-shadow: 0px 10px 10px rgba(190, 158, 204, 0.609);
+	transition: all 0.4s;
+}
+
+.payment__content {
+	padding: 10px 15px;
+}
+
+.payment__title {
+}
+.payment__price-box {
+	margin-bottom: 18px;
+}
+.price__per-unit {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+.price__number {
+	font-size: 28px;
+	font-weight: bold;
+	transition: all 0.4s;
+}
+.price__billing-period {
+	display: block;
+	font-size: 14px;
+}
+.payment__plan {
+}
+.plan__features {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.plan__feature {
+	font-weight: 600;
+	font-weight: 17px;
+}
+.plan__feature-tick {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.payment:hover .price__number {
+	transform: translateY(-5px);
+	color: #4b245b;
+}
+
+.payment:active {
+	transform: translateY(5px);
+}

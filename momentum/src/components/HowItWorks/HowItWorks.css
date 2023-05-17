@@ -1,0 +1,9 @@
+.how-it-works {
+}
+
+.how-it-works__body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	justify-content: space-between;
+}
