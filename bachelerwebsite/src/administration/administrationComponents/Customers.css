@@ -1,0 +1,108 @@
+/* customers.css */
+
+.customers {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.customers__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.customers__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.customers__input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.customers__button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.customers__button--cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+.customers__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers__table th,
+.customers__table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.customers__action {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.customers__action--delete {
+  background-color: #dc3545;
+}
+
+
+
+/* ... (previous styles) */
+
+.modal {
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.customers__add {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

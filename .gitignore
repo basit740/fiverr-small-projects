@@ -2,3 +2,6 @@ momentum/node_modules
 capstone/client/node_modules/
 capstone/server/node_modules/
 capstone/server/.env
+bachelerwebsite/node_modules
+bachelerwebsite/build
+bachelerwebsite/nginx
