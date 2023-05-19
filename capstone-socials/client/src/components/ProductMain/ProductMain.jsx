@@ -3,7 +3,7 @@ import ProductDetails from "./ProductDetails/ProductDetails";
 
 function ProductMain() {
     return (
-      <section className="flex">
+      <section className="flex w-[1286px] m-auto">
           <ProductColumn />
           <ProductDetails />
       </section>

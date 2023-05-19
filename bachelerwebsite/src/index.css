@@ -52,3 +52,7 @@
 	background-color: #fde68a !important;
 	cursor: not-allowed !important;
 }
+
+.red {
+	color: red !important;
+}
