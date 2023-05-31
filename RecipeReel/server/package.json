@@ -1,0 +1,23 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "Basit Ali",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-fileupload": "^1.4.0",
+		"jsonwebtoken": "^9.0.0",
+		"pg": "^8.11.0",
+		"sequelize": "^6.31.1",
+		"volleyball": "^1.5.1"
+	}
+}
