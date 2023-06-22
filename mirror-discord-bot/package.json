@@ -1,0 +1,27 @@
+{
+  "name": "mirror-discord-bot",
+  "version": "1.0.0",
+  "description": "The Mirror Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/fiverr-small-projects"
+  },
+  "keywords": [
+    "discord",
+    "clone",
+    "discord",
+    "channels",
+    "nodejs",
+    "discord.js"
+  ],
+  "author": "Basit Ali",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.2"
+  }
+}
